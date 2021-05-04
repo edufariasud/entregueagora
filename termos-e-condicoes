@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>US Closer</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="icon" type="image/x-icon" href="https://uscloser.com/assets/images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="https://uscloser.com/assets/css/bootstrap.min.css" />
+
+        <!--<link rel="stylesheet" type="text/css" href="https://uscloser.com/assets/css/owl.carousel.css" />-->
+        <link rel="stylesheet" type="text/css" href="https://uscloser.com/assets/css/style_site.css?cache=1620142953" />
+
+                    <link rel="stylesheet" type="text/css" href="https://uscloser.com/assets/css/blog/bootstrap.min.css?cache=1620142953" />
+            <link rel="stylesheet" type="text/css" href="https://uscloser.com/assets/css/blog/themes.css?cache=1620142953" />
+            <link rel="stylesheet" type="text/css" href="https://uscloser.com/assets/css/blog/responsive.css?cache=1620142953" />
+        
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id))
+                return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=1734246143454146";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s)
+        {
+            if (f.fbq)
+                return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)
+                f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1182516061856030'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+
+        fbq('init', '256391228257968');
+        fbq('track', 'PageView');
+
+        fbq('init', '2527995824146929');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1182516061856030&ev=PageView&noscript=1"/></noscript>
+    <noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=256391228257968&ev=PageView&noscript=1"/></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2527995824146929&ev=PageView&noscript=1"/></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'});
+            var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W8XHV6N');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 861145338 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-861145338"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91410265-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-91410265-1');
+</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-861145338');
+    </script>
+
+    <!-- Twitter universal website tag code -->
+    <script>
+        !function (e, t, n, s, u, a) {
+            e.twq || (s = e.twq = function () {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                    a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+        }(window, document, 'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init', 'o2t0p');
+        twq('track', 'PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8XHV6N"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <div class="rowHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-9 col-md-9 col-lg-3 boxLogo">
+                                                    <a class="logo" href="https://uscloser.com/">US Closer</a>
+                                                </div>
+
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-9">
+                        <div class="col-md-12">
+                            <ul class="listarHeader right">
+                                <li><a class="login" href="https://uscloser.com/minhaconta"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+                                <li><a class="novaConta" href="https://uscloser.com/minhaconta">Cadastrar</a></li>
+                                <li class="facebook"><a target="_blank" href="https://www.facebook.com/UsCloser"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 hidden-lg">
+                            <nav class="menuMobile">
+                                <a class="iconResponsivo" href="#"><i class="fa fa-bars" aria-hidden="true"></i> Menu</a>
+
+                                <ul>
+
+                                                                            <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/">Início</a>
+                                        </li>
+                                                                        <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/littletrees">Little Trees</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/quem-somos">Quem Somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/como-importar">Como Importar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/simulador-de-frete">Simulador de Fretes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/servicos">Serviços</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://uscloser.com/faq">FAQ</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-9 col-lg-9">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <nav class="menuDesktop col-xs-12 col-sm-12 col-md-8 col-lg-12 hidden-md hidden-sm hidden-xs">
+                                    <ul class="right">
+                                                                                    <li class="nav-item">
+                                                <a class="nav-link" href="https://uscloser.com/">Início</a>
+                                            </li>
+                                                                                <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/littletrees">Little Trees</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/quem-somos">Quem Somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/como-importar">Como Importar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/simulador-de-frete">Simulador de Fretes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/servicos">Serviços</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/blog">Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://uscloser.com/faq">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- .menuDesktop -->
+
+                            </div>
+                            <!-- .row -->
+                        </div>
+                        <!-- .rowMenu -->
+                    </div>
+                </div>
+                <!-- .rowLogo -->
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .rowHeader -->
+
+
+    </header><section class="rowBanner">
+    <div class="itemBanner">
+        <img src="https://uscloser.com/assets/images/banner-internas.jpg" alt="Como Funciona">
+        <div class="textBanner">
+            <h3>Termos e</h3>
+            <h1>Condições <strong> de Uso</strong></h1>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="main">
+        <div class="row">
+            <article class="col-xs-12 boxConteudo">
+
+                <p>Você deve aceitar todos esses termos para utilizar nossos serviços.</p>
+
+                <h2>Sobre nós</h2>
+
+                <p>Somos uma empresa sediada nos Estados Unidos, trabalhamos desde 2013 enviando encomendas para o brasil e todo mundo. São anos de confiança e qualidade nos serviços.</p>
+
+                <h2>Termos Gerais</h2>
+
+                <p>- Os nossos serviços consistem em receber as encomendas e correspondências, classificar, reembalar e enviar para o nossos clientes, quando solicitado.</p>
+
+                <p>- A UsCloser fornece a cada cliente um endereço nos Estados Unidos, que inclui um número de SUITE único.</p>
+
+                <p>- O seu endereço UsCloser é apenas para fins de transporte de correspondência e encomendas. Você não tem permissão para usar seu endereço UsCloser para qualquer outra finalidade, como, criação de contas bancárias ou contas de cartões de crédito, criação de sites ou registro de domínios na internet, etc.</p>
+
+                <p>- A UsCloser não é uma transportadora. Nós não temos o controle, nem assumimos qualquer responsabilidade, pelo envio e transporte dos itens e nem quaisquer imposto cobrado no país destino. Nós também não garantimos a identidade de qualquer membro, nem garantimos que um destinatário aceite o envio. Todos os Termos e Condições da transportadora (USPS) aplica-se aos pacotes do cliente enviado por nós.</p>
+
+                <p>- É responsabilidade do cliente se certificar de que um produto pode ser enviado. O cliente deve garantir que o conteúdo, tamanho, peso, volume, destino e/ou destinatário de um pacote não estão sujeitos a proibições ou restrições do país de origem ou do país de destino. A UsCloser não garante a entrega de pacotes que não estejam em conformidade com os regulamentos de importação do país de destino ou regulamentos de exportação dos Estados Unidos.</p>
+
+                <p>- O cliente é o único responsável por declarar o conteúdo de cada caixa e os valores respectivos (declaração alfandegária). Conforme rege a legislação do país de destino.</p>
+
+                <p>- A UsCloser não é responsável por pacotes que excedam o tamanho, peso ou volume permitido pela USPS. É de sua responsabilidade garantir que o pacote que estamos enviando para você está dentro do tamanho, peso e restrições de volume ou proibições que se aplicam no país de origem ou de destino.</p>
+
+                <p>- Os clientes devem se certificar que o nome, número de suíte e endereço estão corretos em cada pacote enviado para a UsCloser.</p>
+
+                <p>- A UsCloser inclui 1 foto para cada encomenda recebida, uma foto da caixa recebida e do item dentro da mesma. Esse serviço é gratuito.</p>
+
+                <p>- A UsCloser remove gratuitamente publicidade, encartes, faturas, etc, que vierem dentro das caixas recebidas. Esse serviço é gratuito e você deve solicitar quando montar a sua caixa para envio.</p>
+
+                <p>- O cliente tem 90 dias de armazenamento gratuito a partir do último item cadastrado em sua suíte. O prazo de armazenamento é de 90 dias corridos, contado sempre a partir do último item cadastrado em sua suite. </p>
+
+                <p>Exemplo: O cliente possui em sua suíte um item cadastrado a 30 dias, o mesmo efetua uma nova compra. Assim que o novo item for cadastro em sua suite, o prazo de armazenamento é renovado e o mesmo possui mais 90 dias gratuitos de armazenamento. Após o prazo gratuito vencer, será cobrado uma multa de $1 dólar ao dia, por um prazo máximo de 30 dias.</p>
+
+                <p>É de responsabilidade do cliente atentar-se ao prazo de armazenamento de seus produtos. Se o mesmo não entrar em contato para pagamento da multa em até 30 dias após o vencimento, os itens irão a leilão sem aviso prévio para cobrir despesas de armazenamento e custos operacionais. Sendo o prazo maximo de renovaçao para cada item de 180 dias (6 meses). Após 180 dias de renovação do mesmo item, começara a ser cobrado $1 de multa por cada dia extra. Apos 210 dias, se o item não for enviado, o mesmo sera descartado.</p>
+
+                <p>- Ao criar sua conta em nosso site você autoriza a UsCloser, diretamente ou através de terceiros, a fazer quaisquer perguntas que considerarmos necessárias para validar a sua identidade.</p>
+
+                <p>- Sua conta pode ser bloqueada se for solicitado a comprovação de titularidade e essa não for comprovada por você. Se sua conta for bloqueada por tentativa de fraude, todas as encomendas que você tiver na UsCloser serão devolvidas para as lojas e/ou descartadas.</p>
+                
+                <p>- A UsCloser, utiliza como uma de suas ferramentas de divulgação, o sistema de AFILIADOS, que pode gerar comissões de 50% sobre o valor da TAXA DE SERVIÇO UsCloser pago pelo usuário indicado, quando e somente na utilização de nosso serviço de redirecionamento. Qualquer cadastrado em nosso site está apto a ser um afiliado e gerar renda através de seus links e banners fornecidos pelo nosso sistema. A qualquer momento você poderá solicitar o envio do valor ganho no sistema de afiliado para a sua conta PayPal ou depósito/transferência bancário. Importante lembrar que em nossos serviços de compra assistida não será contabilizada a comissão ao afiliado. Qualquer forma fraudulenta de utilizar nosso sistema de afiliados, incidirá no cancelamento de nossa parceria e de sua conta, perdendo qualquer valor ganho através do programa. Como exemplo, criar uma segunda conta em nosso site através do sistema de afiliados para tirar proveito dos ganhos entre outros. </p>
+
+                <h2>Segurança e Privacidade</h2>
+
+                <p>Em nosso site você efetua os pagamentos com total tranquilidade, pois trabalhamos com conta empresarial PayPal, com certificado de segurança, garantindo toda a segurança. Todas as informações que trafegam entre seu computador e o nosso site são codificadas utilizando a mais alta tecnologia disponível. Assim que recebemos seus dados, logo os transferimos para central do PayPal, através de um seguro sistema de transmissão. Este procedimento não permite que terceiros tenham acesso às suas informações pessoais e aos dados de seu cartão de crédito. Tudo isto é feito para que você possa ter ainda mais conforto e tranquilidade ao comprar em nosso site.</p>
+                
+                <p>Possuímos certificado SSL, o qual garante sua segurança enquanto navega em nosso site.</p>
+
+                <h2>Privacidade</h2>
+                <p>Temos um enorme apreço pela individualidade e privacidade de nossos usuários, tendo o máximo respeito pelo sigilo de informações obtidas através de nosso website. Nosso compromisso é manter em sigilo absoluto todas e quaisquer informações de nossos usuários, obtidas através de nosso site, respeitadas as exceções previstas nesta política.</p> 
+
+                <h2>Uso das Informações</h2>
+
+                <p>As informações fornecidas por você serão mantidas em sigilo e serão utilizadas apenas para agilizar sua relação de cliente com a UsCloser. Entre outras coisas, desejamos ajudá-lo a encontrar as informações que você precisa mais rapidamente em nosso site e informá-lo sobre atualizações de produtos, ofertas especiais e novos serviços da loja. Todas as informações consideradas sigilosas, para efeito desta política, serão usadas exclusivamente por nós, objetivando o aprimoramento de nossa relação com você. Informações pessoais e individuais não serão vendidas ou repassadas por nós a terceiros sob nenhuma hipótese.</p>
+
+                <h2>Taxas de importação, produtos proibidos, documentação para importação, etc</h2>
+
+                <p>- O cliente é o responsável direto no pagamento de todos os impostos e tributos que vierem a ser cobrados no país de destino.</p>
+
+                <p>- Se você optar por pagar o seguro em seu envio, o seguro que pagamos cobre apenas a ida do produto para o destinatário. Caso você não efetue o pagamento do pacote tributado ele não possui seguro para retornar para nós, por isso sempre efetue o pagamento de suas encomendas tributadas. Se a tributação foi acima do normal, recorra para ajuste do valor. O seguro oferecido pela USPS não cobre encomendas não retiradas. O seguro, quando pago, é válido apenas para casos de roubo, perda, assalto, entre outros casos de perda do pacote pelos correios. O seguro não cobre atrasos na entrega dos pacotes.</p>
+
+                <p>- Encomendas tributadas e não procuradas que retornarem para nós, poderão ser reenviadas mediante ao pagamento de novo frete e serviços.</p>
+
+                <p>- O cliente é responsável por determinar e seguir as regras de despachos, incluindo todas as exigências aduaneiras do país de destino.</p>
+
+                <p>- O cliente é o responsável pelo preenchimento da declaração aduaneira dentro da sua conta UsCloser, ou seja, o cliente é responsável pela exatidão das informações das declarações aduaneiras, pela documentação e por todos os impostos aduaneiros no país de destino.</p>
+
+
+
+                <h2>Responsabilidades UsCloser</h2>
+
+                <p>- Você está contratando a UsCloser apenas para receber suas caixas nos Estados Unidos e envia-las para você. A responsabilidade da UsCloser é limitada ao montante das taxas de manuseio (excluindo-se os custos de envio).</p>
+
+                <p>- O cliente deverá indenizar e isentar a UsCloser de toda e quaisquer reivindicações, incluindo custas judiciais na defesa contra reclamações de terceiros, devido a estes terem utilizado o serviço UsCloser de alguma forma irregular.</p>
+
+                <p>- A UsCloser não será responsável por qualquer dano, seja por seu erro ou omissão no fornecimento de informações falsas ou incorretas, ou por não fornecer todas as informações necessárias.</p>
+
+                <p>- A UsCloser não se responsabiliza por endereços incorretos e/ou não completos fornecidos pelo cliente. O preenchimento do endereço de envio é de responsabilidade única e exclusiva do cliente, o nosso sistema imprime as etiquetas de acordo com o que foi preenchido pelo cliente.</p>
+
+            </article>
+            <!-- .boxServicos -->
+        </div>
+        <!-- .row -->
+    </div>
+</div>
+<!-- .container --><footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a class="logo" href="https://uscloser.com/">US Closer</a>
+                <p>
+                    Somos uma empresa que atua no mercado de logística há mais de 4 anos. 
+                    Nesse período, entregamos mais de 50.000 encomendas em todo o mundo e 
+                    conquistamos um alto índice de satisfação com nossos clientes. <a href="https://uscloser.com/quem-somos">Saiba Mais</a>
+                </p>
+                <span><a href="maito:contato@uscloser.com">contato@uscloser.com</a></span>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <h4>Mapa do Site</h4>
+                <ul>
+                    <li><a href="https://uscloser.com/">INíCIO</a></li>
+                    <li><a href="https://uscloser.com/loja">LOJA</a></li>
+                    <li><a href="https://uscloser.com/littletrees">LITTLE TREES</a></li>
+                    <li><a href="https://uscloser.com/faq">FAQ</a></li>
+                    <li><a href="https://uscloser.com/como-importar">COMO IMPORTAR</a></li>
+                    <li><a href="https://uscloser.com/simulador-de-frete">SIMULADOR DE FRETES</a></li>
+                    <li><a href="https://uscloser.com/termos-e-condicoes">TERMOS E CONDIçõES</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 boxFacebook">
+                <h4>Siga-nos</h4>
+                <div class="fb-page" data-href="https://www.facebook.com/UsCloser/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UsCloser/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UsCloser/">UsCloser</a></blockquote></div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 boxCopyright">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <small>&copy; 2021 - uscloser.com | Todos os direitos reservados</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+    </div>
+    <div style="background: #FFF; padding: 15px;">
+        <figure>
+            <img src="https://uscloser.com/assets/images/formaspagamento.png" class="img-responsive" style="margin: 0 auto;" >
+        </figure>
+    </div>
+    <div class="clock">
+        <div id="Date"></div>
+        <ul>
+            <li id="hours"></li>
+            <li id="point">:</li>
+            <li id="min"></li>
+            <li id="point">:</li>
+            <li id="sec"></li>
+        </ul>
+        <div class="clock-working"></div>
+    </div>
+
+    
+    <!--        <div class="asagiSabit whatsappBlock _desktopicon">
+            <a href="https://web.whatsapp.com/send?text=Olá, preciso de ajuda&phone=+13852108150">
+                <img src="https://uscloser.com/loja/modules/whatsapp/views/img/whataspp_icon.png" alt="Whataspp" width="24px" height="24px" />
+            </a>
+        </div>-->
+        <!-- .container -->
+</footer>
+<script type="text/javascript" src="https://uscloser.com/assets/js/jquery-2.1.4.min.js"></script>    
+<script src="https://uscloser.com/assets/js/owl.carousel.min.js" type="text/javascript"></script>
+
+<script src="https://uscloser.com/assets/js/jquery.mask.min.js" type="text/javascript"></script>
+<script src="https://uscloser.com/assets/js/funcoes.js?v=1.4" type="text/javascript"></script>
+<script src="https://uscloser.com/assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+        var dayNames = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+
+        var newDate = new Date();
+        newDate.setDate(newDate.getDate());
+        var mes = 4;
+        var dia = 2;
+        var hora = 09;
+        $('#Date').html('Salt Lake City - ' + dayNames[dia] + "  04 " + monthNames[mes] + ' ' + newDate.getFullYear());
+
+        setInterval(function () {
+            var seconds = new Date().getSeconds();
+            $("#sec").html((seconds < 10 ? "0" : "") + seconds);
+        }, 1000);
+
+        setInterval(function () {
+            var minutes = new Date();
+            var options = {minute: '2-digit', timeZone: 'America/Denver'};
+            var minutos = minutes.toLocaleTimeString('pt-BR', options);
+            $("#min").html((minutos < 10 ? "0" : "") + minutos);
+        }, 1000);
+
+        setInterval(function () {
+            var hours = new Date();
+            var options = {hour: '2-digit', timeZone: 'America/Denver'};
+            var hora = hours.toLocaleTimeString('pt-BR', options);
+            $("#hours").html(hora);
+        }, 1000);
+
+        if ((dia != 0 && dia != 7 && dia != 6) && (parseInt(hora) >= 8 && (parseInt(hora) <= 18))) {
+            $('div.clock-working').html('<span>AS CAIXAS ESTÃO SENDO CADASTRADAS E ENVIADAS</span>');
+        } else {
+            $('div.clock-working').html('<span class="text-danger">Estamos repondo as energias</span>');
+        }
+    });
+</script>
+
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-91410265-1', 'auto');
+    ga('send', 'pageview');
+
+</script>    
+</body>
+    <script src="https://uscloser.com/assets/js/blog-site.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet">
+</html>
