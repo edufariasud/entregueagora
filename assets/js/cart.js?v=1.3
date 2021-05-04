@@ -1,0 +1,138 @@
+function modalAjudaSuite() {
+    $("#modalajudasuite").modal();
+}
+
+function ativarAdicionarSuite() {
+    $("#addsuite").show().find('[type="radio"]').trigger('click');
+}
+
+function modalCFP() {
+    $("#modalcpf").modal();
+}
+
+if ($('.loadmodalcpf').length) {
+    $("#modalcpf").modal();
+}
+
+if ($('#cpfmodal').length) {
+    if($('[name="endereco"]').length == 1){
+        $("#modaladdress").modal();
+    }
+    $('#cpfmodal').mask('999.999.999-99');
+}
+
+function saveCPF() {
+    var cpf = $('#cpfmodal').val();
+    $('#cpfaddress').val(cpf);
+    $("#modalcpf").modal('hide');
+}
+
+$('.addtocart').click(function () {
+    var qtd = $(this).parents('.box-carrinho').find('.qtde_item').val();
+    var url = $(this).attr('href');
+
+    $.post(url, {'qtd': qtd}).done(function (response) {
+        response = JSON.parse(response);
+
+        if (response.status == 'success') {
+            $('#total').text('U$' + response.total);
+            $('#total_items').text(response.total_items);
+            $('#modalcart .modal-body i').removeClass('fa-close').addClass('fa-check');
+            $('#modalcart .modal-dialog').removeClass('modal-danger').addClass('modal-success');
+            $('#modalcart .modal-footer .continuar').removeClass('btn-outline-danger').addClass('btn-outline-success');
+            $('#modalcart .modal-footer .finalizar').removeClass('btn-danger').addClass('btn-success');
+
+            if (parseInt(response.total_items) > 8) {
+                $('#modalalert .modal-footer .continuar').removeClass('btn-outline-danger').addClass('btn-outline-success');
+                $('#modalalert .modal-footer .finalizar').removeClass('btn-danger').addClass('btn-success');
+                $("#modalalert").modal()
+            } else {
+                $('#msgcart').text(response.msn);
+                $("#modalcart").modal()
+            }
+        } else {
+            $('#modalcart .modal-body i').addClass('fa-close').removeClass('fa-check');
+            $('#modalcart .modal-dialog').addClass('modal-danger').removeClass('modal-success');
+            $('#modalcart .modal-footer .continuar').addClass('btn-outline-danger').removeClass('btn-outline-success');
+            $('#modalcart .modal-footer .finalizar').addClass('btn-danger').removeClass('btn-success');
+
+            $('#msgcart').text(response.msn);
+            $("#modalcart").modal()
+        }
+    });
+
+    return false;
+});
+
+$('.carrinho, .finalizar').click(function () {
+    if ($('.carrinho').css('right') == '-110px') {
+        $('.carrinho').animate({right: 0}, 300);
+    } else {
+        window.location.href = $(this).data('url');
+    }
+});
+
+$(".qtde_item").change(function (o) {
+    $(this).parents('.caption').find("a.addtocart").attr('href', function (i, a) {
+        return a.replace(/(qtd=)[0-9]+/ig, '$1' + o.target.value);
+    });
+});
+
+$(".product_quantity_down").click(function () {
+    var item = $(this).closest(".caption").find(".qtde_item");
+    if (item.val() > 1) {
+        item.val(parseInt(item.val()) - 1);
+        $(".qtde_item").change();
+    }
+    return false;
+});
+
+$(".product_quantity_up").click(function () {
+    var item = $(this).closest(".caption").find(".qtde_item");
+    if (parseInt(item.val()) < item.attr('max')) {
+        item.val(parseInt(item.val()) + 1);
+        $(".qtde_item").change();
+    }
+    return false;
+});
+
+$(document.body).on('click', '.gotopayment', function () {
+    if ($('[name="condicoes"]').length) {
+        $('#qtdealert').hide();
+    }
+
+    $('#termosalert').hide();
+    if (!$('[name="termos"]').is(':checked') || ($('[name="condicoes"]').length && !$('[name="condicoes"]').is(':checked'))) {
+        if ($('[name="condicoes"]').length) {
+            $('#qtdealert').show();
+        }
+
+        $('#termosalert').show();
+        return false;
+    }
+});
+
+if ($('input[name=cep]').length) {
+
+    $('#cep').mask('99.999-999', {placeholder: '__.___-___'});
+
+    $(document.body).on('blur', 'input[name=cep]', function () {
+
+        var cep = $(this).val().replace(/[^\d]+/g, '');
+
+        if (cep != '') {
+            var validacep = /^[0-9]{8}$/;
+
+            if (validacep.test(cep)) {
+                $.getJSON("//viacep.com.br/ws/" + cep + "/json/?callback=?", function (dados) {
+                    if (!("erro" in dados)) {
+                        $('input[name=logradouro]').val(dados.logradouro);
+                        $('input[name=bairro]').val(dados.bairro);
+                        $('input[name=cidade]').val(dados.localidade);
+                        $('input[name=uf]').val(dados.uf);
+                    }
+                });
+            }
+        }
+    });
+}
